@@ -7,7 +7,7 @@ Admin Dashboard created using the CSS Grid Layout for the Odin Project :sparkles
 Icons by [Dinosoftlabs](https://www.flaticon.com/authors/dinosoftlabs) and [Laura Reen](https://www.iconfinder.com/laurareen)
 
 >Roses are Red, 
->>Violets are Blue 
->>Unexpected '{' on line 32.
+Violets are Blue 
+Unexpected '{' on line 32.
 
 :sunny:
