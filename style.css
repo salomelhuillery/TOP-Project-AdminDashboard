@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    display: inline-block;
+}
+
+
+button{
+    background-color: #1992D4;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    border: 0ch;
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	height: 35px;
+	border-radius: 40px;
+}
+
+.search input[type=text] {
+    padding: 6px;
+    border: none;
+    font-size: 15px;
+    background-color: #E2E8F0;
+    border-radius: 40px;
+    width: 55vw;
+    height: 20px;
+  }
+
+.container {
+    display : grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.header{
+    background-color: rgb(255, 255, 255);
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-auto-rows: minmax(min-content, max-content);
+    box-shadow: 0px 10px 10px -15px #000000;
+    z-index: 2;
+
+}
+
+.top-header{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.search{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.right-infos{
+    grid-column: 2;
+    grid-row: 1;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.right-infos h2{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.bottom-header{
+    grid-column: 1/-1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+.bottom-left img{
+    float: left;
+    vertical-align: middle;
+    padding: 0 15px 15px 0;
+
+}
+
+.bottom-left{
+    margin-left: 50px;
+    display: inline;
+}
+
+.bottom-left p{
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.bottom-right{
+    margin-right: 15px;
+    grid-column: 3;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.main{
+    background-color: rgb(223, 228, 237);
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-right: 5vw;
+}
+
+.projects{
+    grid-row: 1 / -1;
+}
+
+.projects h3{
+    padding: 20px 0 0 15px;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-right: 25px;
+}
+
+.cards{
+    background-color: white;
+    /* width: 20vw;  */
+    margin-left: 15px;
+    margin-top: 20px;
+    border-left: rgb(229, 176, 55) 6px solid;
+    border-radius: 5px;
+    padding: 30px 20px;
+    box-shadow: 1px 5px 4px 0 rgb(208, 211, 218);
+}
+
+.icons{
+    text-align: right;
+    padding-top: 30px;
+    color: rgb(80, 80, 80);
+}
+
+.fa-solid{
+    padding-right: 15px;
+}
+
+.cards p{
+    font-size: 13px;
+    color: grey;
+}
+
+
+.cards .title{
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.annoucements{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+}
+
+.announ-text{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 1px 5px 4px 0 rgb(208, 211, 218);
+    margin-top: 20px;
+}
+
+.announcements h3{
+padding: 20px 0 0 0px;
+}
+
+.announ-text p{
+    font-size: 11px;
+    color: gray;
+}
+
+.announ-text .infos{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.trending{
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 40px;
+}
+
+
+.trending .socials{
+    padding: 0px 0 0 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 2px 5px 5px 0 rgb(208, 211, 218);
+    margin-top: 20px;
+}
+
+.john img {
+    float: left;
+    padding-right: 15px;
+}
+
+.john{
+    padding: 10px 0 10px 0;
+}
+
+.john p{
+    font-size: 13px;
+    color: gray;
+}
+
+.john .names{
+    font-size: 14px;
+    color: black;
+}
+
+
+.sidebar{
+    background-color: #1992D4;
+    color: white;
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+    padding-left: 50px;
+}
+
+.sidebar p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.logo{
+    margin: 30px 0 0 0;
+}
+
+.logo img{
+    float: left;
+    padding-right: 10px;
+}
+
+li i{
+    float: left;
+}
